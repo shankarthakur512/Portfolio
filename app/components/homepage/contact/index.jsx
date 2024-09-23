@@ -25,7 +25,7 @@ function ContactSection() {
             : <ContactWithoutCaptcha />
         }
 
-        <div className="lg:w-3/4 ">
+        <div className="lg:w-3/4  dark:text-white ">
           <div className="flex flex-col gap-5 lg:gap-9">
             <p className="text-sm md:text-xl flex items-center gap-3">
               <MdAlternateEmail

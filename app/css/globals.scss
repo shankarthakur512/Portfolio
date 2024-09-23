@@ -11,12 +11,16 @@
     --foreground-rgb: 255, 255, 255;
   }
 }
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background-color: #fff;
+  color: #000; /* default light mode color */
+  background-color: #fff; /* default light mode background */
 }
-// #0d1224;
+
+body.dark-mode {
+  color: rgb(var(--foreground-rgb));
+  background-color: #0d1224;
+}
+//  #0d1224;
 
 #sticky-card-1 {
   --index: 1;
