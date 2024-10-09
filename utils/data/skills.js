@@ -12,7 +12,7 @@ export const skillsData = [
   'Docker',
   'Firebase',
  'Nginx',
-  'Strapi'
+  
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
